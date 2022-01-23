@@ -1,4 +1,4 @@
-# CSCI 360 Spring 2021
+# CSCI 360 Spring 2022
 # Dr. Ning Zhang
 # Chapters 1,2,3 MySQL Introduction
 
