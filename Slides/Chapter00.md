@@ -1,4 +1,4 @@
-# CSCI 360 Spring 2021
+# CSCI 360 Spring 2022
 
 # Chapter 0: Introduction to Databases
 
