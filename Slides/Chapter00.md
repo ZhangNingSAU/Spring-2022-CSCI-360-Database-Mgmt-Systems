@@ -741,7 +741,7 @@ Example of a simplified database catalog
 
 ### Definition Summary
 
-![Definition Summary](https://www.cs.montana.edu/~halla/csci440/n3/figure-3-5.png)
+
 
 |Informal Term|Formal Term|
 |---|---|
