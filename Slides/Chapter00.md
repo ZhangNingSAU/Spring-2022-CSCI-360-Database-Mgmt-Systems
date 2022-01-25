@@ -633,7 +633,7 @@ Example of a simplified database catalog
 
 ### An Example of Relation
 
-![An Example of Relation](https://www.cs.montana.edu/~halla/csci440/n3/figure-3-1.png)
+![An Example of Relation](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Relational_database_terms.svg/1200px-Relational_database_terms.svg.png)
 ### Informal Definition: Relation
 + Informally, a relation looks like a **table** of values. 
 + A relation typically contains a set of **rows**.
