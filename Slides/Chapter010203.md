@@ -190,6 +190,7 @@ SELECT COUNT(*) FROM user;
       ![](../Resources/1.explore.png)
     
   - run the file using its full path
+    + If you are using Windows, the default full path is `C:\xampp\htdocs\count_users.sql`
   
   ![](../Resources/1.batch2.png)
   
