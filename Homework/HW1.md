@@ -1,6 +1,6 @@
-# CSCI360 Spring 2021
+# CSCI360 Spring 2022
 # Homework 1 for Chapters 1,2,3
-# due: 11:59pm 02/16/2021
+# due: 11:59pm 02/08/2021
 
 # Q1: Launch XAMPP application and start services.
 # Q2: Start the Monitor and Connect to MySQL.
