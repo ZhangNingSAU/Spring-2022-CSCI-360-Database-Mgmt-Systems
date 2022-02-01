@@ -145,12 +145,16 @@ Note: the tool I use here is an online tool called [erdplus](https://erdplus.com
 + Is the item of direct interest to the database?
   - Objects of direct interest should be entities
   - Information that describes them should be stored in attributes.
+  - For example, our inventory and sales database is really interested in customers, and not their email addresses, so the email address would be best modeled as an attribute of the customer entity.
 + Does the item have components of its own?
   - If so, a separate entity might be the best solution.
+  - For example, in the student grades example at the start of the chapter, we stored the course name, year, and semester for each course that a student takes. It would be more compact to treat the course as a separate entity and to create a class ID number to identify each time a course is offered to students (the “offering”).
 + Can the object have multiple instances?
   - If so, the cleanest way to do this is to represent the object as a separate entity.
+  - For example, in our sales example, we must ask whether customers are allowed to have more than one email address; if they are, we should model the email address as a separate entity.
 + Is the object often nonexistent or unknown?
   - If so, it is effectively an attribute of only some of the entities, and it would be better to model it as a separate entity rather than as an attribute that is often empty.
+  - For example, to store student grades for different courses, we could have an attribute for the student’s grade in every possible course. Because most students will have grades for only a few of these courses, it’s better to represent the grades as a separate entity set.
   
   ![student](../Resources/4-student.png)
   
@@ -181,6 +185,7 @@ Note: the tool I use here is an online tool called [erdplus](https://erdplus.com
 + In database design, we can omit some key information for (week) entities that are dependent on other (strong) entities.
 + The relationship between a week entity and a strong entity is called an **identifying relationship**.
 + In the ER diagram, we show weak entities and identifying relationships with double lines, and the partial key of a weak entity with a dashed underline.
++ A weak entity is uniquely identified in the context of its regular (or strong) entity, and so the full key for a weak entity is the combination of its own (partial) key with the key of its owning entity. To uniquely identify a child in our example, we need the first name of the child and the email address of the child’s parent.
 
 ![4-weak.png](../Resources/4-weak.png)
 
