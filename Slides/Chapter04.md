@@ -1,4 +1,4 @@
-# CSCI 360 Spring 2021
+# CSCI 360 Spring 2022
 # Chapter 4: Modeling and Designing Databases
 # How NOT to develop a database
 + Q: quick design vs. good design
