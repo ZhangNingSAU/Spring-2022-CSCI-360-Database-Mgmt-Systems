@@ -110,6 +110,7 @@ Note: the tool I use here is an online tool called [erdplus](https://erdplus.com
     + simple attributes: an simple oval
     + composed attributes: an oval(sometimes the attribute name is surrounded by a pair of ()) connected by other ovals(these are simple attributes)
     + multivalued attribute: two ovals
+      - For example, a customer could provide several telephone numbers, so the telephone number attribute is multivalued. 
     + key: 
       - candidate keys
       - primary key: an oval with underlined name
@@ -122,8 +123,11 @@ Note: the tool I use here is an online tool called [erdplus](https://erdplus.com
 ## Representing Relationships
 + Types of relationships
   - one-to-one(1:1)
+    + For example, each engine has just one serial number, and each serial number belongs to just one engine.
   - one-to-many(1:N)
+    + For example, one person can have several credit cards, but each credit card belongs to just one person.
   - many-to-many(M:N)
+    + For example, each customer can buy any number of products, and each product can be bought by any number of customers. 
 + In an ER diagram, we represent a relationship set with a named diamond。
 + The number of entities on either side of a relationship (the cardinality of the relation- ship) define the key constraints of the relationship.
   
