@@ -177,7 +177,7 @@ Note: the tool I use here is an online tool called [erdplus](https://erdplus.com
   - intermediate entity: the booking
     + Each passenger can be involved in multiple bookings, but each booking belongs to a single passenger(one-to-many).
     + there can be many bookings for a given flight, but each booking is for a single flight(one-to-many).
-    + Since each booking must be associated with a par- ticular passenger and flight, the booking entity participates totally in the relationships with these entities. This total participation could not be captured effectively in the representation in figure above.
+    + Since each booking must be associated with a particular passenger and flight, the booking entity participates totally in the relationships with these entities. This total participation could not be captured effectively in the representation in figure above.
     
     ![4-intermediate2.png](../Resources/4-intermediate2.png)
   
