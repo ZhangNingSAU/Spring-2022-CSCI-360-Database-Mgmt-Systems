@@ -129,7 +129,7 @@ Note: the tool I use here is an online tool called [erdplus](https://erdplus.com
   - many-to-many(M:N)
     + For example, each customer can buy any number of products, and each product can be bought by any number of customers. 
 + In an ER diagram, we represent a relationship set with a named diamond。
-+ The number of entities on either side of a relationship (the cardinality of the relation- ship) define the key constraints of the relationship.
++ The number of entities on either side of a relationship (the cardinality of the relationship) define the key constraints of the relationship.
   
 ![relationship2](../Resources/4-relationship2.png)
   
