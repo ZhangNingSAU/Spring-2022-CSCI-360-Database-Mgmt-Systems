@@ -1,6 +1,6 @@
-# CSCI360 Spring 2021
+# CSCI360 Spring 2022
 # Homework 2 for Chapter 4
-# due: 11:59pm 02/18/2021
+# due: 11:59pm 02/15/2021
 
 # Q1: Create the ER model for the MUSIC database in the textbook.(30 points)
 + note: here the textbook is the second/optional one I listed in the syllabus: Learning MySQL.
