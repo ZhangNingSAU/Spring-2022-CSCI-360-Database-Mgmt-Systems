@@ -1,4 +1,4 @@
-# CSCI 360 Spring 2021
+# CSCI 360 Spring 2022
 # Chapter 5: Basic SQL
 + SQL is the only database language in widespread use.
   - It was first proposed in the early 1970s.
