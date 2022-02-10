@@ -12,7 +12,6 @@
 ## Use the **music** database
 + You need to understand the batch mode example we leart in [Chapters 1, 2, and 3](../Slides/Chapter010203.md) to create the **music** database
 + It is also very important to understand the ER model of the **music** database in [Chapter 4](../Slides/Chapter04.md)
-+ It is also very important to understand the ER model of the **music** database in [Chapter 4](../Slides/Chapter04.md)
 
 ![music er model](../Resources/4-music.png)
     
