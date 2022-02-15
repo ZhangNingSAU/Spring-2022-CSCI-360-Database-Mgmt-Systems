@@ -184,6 +184,7 @@ SELECT * FROM album WHERE album_id != 1 AND NOT (album_id = 3);
   ~~~~
   
 
++ [More about ORDER BY](https://www.mysqltutorial.org/mysql-order-by/)
 
 
 ## The LIMIT Clause
