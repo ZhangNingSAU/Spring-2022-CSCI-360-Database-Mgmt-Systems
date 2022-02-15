@@ -24,7 +24,7 @@
 
 ![](/Resources/5-musicer2.png)
 
-# Step 1: Complete Q1-Q14, and save your queries and results in two separate files.
+# Step 1: Complete Q1-Q10, and save your queries and results in two separate files.
 1. Queries.sql, which contains all the sql statements. Please specify the numbers of questions, here is one sample file(double minus is used for comments).
 ~~~~
 -- Q1. Print the column information in table Played
