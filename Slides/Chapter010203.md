@@ -79,11 +79,12 @@
   - The exact location depends on your operating system and how you chose to install MySQL
     + you can locate the promgram from XAMPP directly
   
-  ![](../Resources/xamppwin.png)
+  ![xamppwin](../Resources/xamppwin.png)
   
-  ![](../Resources/xamppmac.png)
+  ![xamppmac](../Resources/xamppmac.png)
   
-  ![](../Resources/1.startterminal.png)
+  ![startterminal](../Resources/1.startterminal.png)
+  
   
   - from the command line, you type
     ~~~~
@@ -91,7 +92,10 @@
     ~~~~
     
     ![](../Resources/1.startmysql.png)
-    
+    + Note: If you are using XAMPP 8 on Mac, you can open the terminal and run the following command
+    ~~~~
+    /Applications/xampp/bin/mysql --user=root
+    ~~~~
     + Note: I am using MAC, the mysql program may look different on Windows, but all the commands we use in this class will be the same.
     + Note: The default password is NULL, if you have set up a password, you need to use the following command
     ~~~~
