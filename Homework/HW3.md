@@ -6,13 +6,19 @@
 + Note: Make sure that you reload the music database(the batch mode command) once before executing the following sql statements.
 # Queries
 1. Print the column information in table **played**.<br>
-2. Print the id and name for each album. <br>
-3. Print the album id, track id, and the played date and time for the tracks that were played before August 15, 2006. <br>
-4. Print the name and time for the 5th track in the album with id=5.<br>
-5. Print the information for tracks that start with 'L' and end with 't'. <br>
+2. Print the artist names. <br>
+3. Print the id and name for each album. <br>
+4. Print the album id, track id, and the played date and time for the tracks that were played before August 15, 2006. <br>
+5. Print the name and time for the 5th track in the album with id=5.<br>
+6. Print the information for tracks that start with 'L' and end with 't'. <br>
+7. Print the information for albums that have letter 't' as the third character.<br>
+8. Print the track information of artist with id = 1, order the result by album in acsending and time in descending.<br>
+9. Print the information for the first 3 artists.<br>
+10. Print the information for the 5 tracks that were played recently.<br>
 
 
 + Note: You can use the ER models to help you understand the structure of the database.
++ Note: No JOIN operation is needed.
 
 ![](/Resources/4-musicer.png)
 
