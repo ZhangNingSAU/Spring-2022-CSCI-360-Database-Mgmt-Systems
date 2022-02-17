@@ -227,6 +227,10 @@ SELECT * FROM album WHERE album_id != 1 AND NOT (album_id = 3);
   ![](https://ars.els-cdn.com/content/image/3-s2.0-B9780123735683500163-f12-05-9780123735683.jpg)
   
   ![](https://lh4.googleusercontent.com/tAIfB7vUFRThSgFqD0jzkY32ffwLkN2T-BgxX1RfWAKM1dV141CDTu0AifT5uCnaIS7AMXNgMqfMZzx5GkuCGKQts1IWVPQed2eDuy5KFTe_MY_XrKpxsdAIW_s7001W=s412)
+  
+  - To implement an `INNER JOIN`, we need to 
+    + do a `Cartesian Product` to get a new table, then
+    + keep the rows that satisfy the `USING` condition
 
 + Example 1:
 
