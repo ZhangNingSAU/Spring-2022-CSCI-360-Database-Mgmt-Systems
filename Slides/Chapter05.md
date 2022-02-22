@@ -285,6 +285,12 @@ ORDER BY track.artist_id, track.album_id, track.track_id, played;
   WHERE artist_id = 1 AND album_name = "Brotherhood";
   ~~~~
   
+  - Note: This is not a good example, we can find the answer using only one table
+  ~~~~
+  SELECT SUM(time) FROM track
+  WHWERE artist_id = 1 AND album_id = 7;
+  ~~~~
+  
 
 # The INSERT Statement
 ## INSERT Basics
