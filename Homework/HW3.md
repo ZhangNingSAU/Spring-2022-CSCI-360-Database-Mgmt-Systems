@@ -12,7 +12,7 @@
 5. Print the name and time for the 5th track in the album with id=5.<br>
 6. Print the information for tracks that start with 'L' and end with 't'. <br>
 7. Print the information for albums that have letter 't' as the third character.<br>
-8. Print the track information of artist with id = 1, order the result by album in acsending and time in descending.<br>
+8. Print the track information of artist with id = 1, order the result by album id in acsending and time in descending.<br>
 9. Print the information for the first 3 artists.<br>
 10. Print the information for the 5 tracks that were played recently.<br>
 
