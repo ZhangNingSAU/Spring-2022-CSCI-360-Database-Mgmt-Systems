@@ -80,8 +80,8 @@ name type [NOT NULL | NULL] [DEFAULT value]
 + When you’re comparing or sorting strings, how MySQL evaluates the result depends on the character set and collation used.
 + **Character sets** define what characters can be stored.
 + A **collation** defines how strings are ordered.
-+ The default character set is latin1, and the default collation is latin1\_swedish\_ci.
-+ You can list the character sets available on your server with the SHOW CHARACTER SET command.
++ The default character set is `latin1`, and the default collation is `latin1_swedish_ci`.
++ You can list the character sets available on your server with the `SHOW CHARACTER SET` command.
 
 ![6-showcharacterset](../Resources/6-showcharacterset.png)
 
