@@ -104,17 +104,36 @@ CREATE DATABASE music DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_cs;
 
 ![6-tablenotexist](../Resources/6-tablenotexist.png)
 
-+ **AUTO_INCREMENT**
++ **AUTO_INCREMENT** for numeric columns
+  - By default, the starting value for `AUTO_INCREMENT` is `1`, and it will `increment by 1` for each new record.
+  - To let the AUTO_INCREMENT sequence start with another value(e.g., 100), use `artist_id SMALLINT(5) NOT NULL AUTO_INCREMENT=100`:
+~~~~
+CREATE TABLE artist (
+    artist_id SMALLINT(5) NOT NULL AUTO_INCREMENT,
+    artist_name CHAR(128) DEFAULT NULL,
+    PRIMARY KEY (artist_id)
+);
+~~~~
 + **Column comments**
-  - add a comment to a column; displayed when you use the SHOW CREATE TABLE command
+  - add a comment to a column; displayed when you use the `SHOW CREATE TABLE` command
+  ~~~~
+  CREATE TABLE artist (
+    artist_id SMALLINT(5) NOT NULL DEFAULT 0 , 
+    artist_name CHAR(128) DEFAULT NULL COMMENT "artist name",
+    PRIMARY KEY (artist_id);
+  )
+  ~~~~
 + **Foreign key constraints**
   - We don’t recommend using foreign key constraints for most applications.
-  - This feature is currently supported for only the InnoDB table type.
+  - This feature is currently supported for only the `InnoDB` table type.
 + **Creating temporary tables**
   - The table will be removed (dropped) when the monitor connection is closed.
+  ~~~~
+  CREATE TEMPORARY TABLE new_tbl SELECT * FROM orig_tbl LIMIT 0;
+  ~~~~
 
 + **Advanced table options**
-  - the starting value of AUTO_INCREMENT
+  - the starting value of `AUTO_INCREMENT`
   - the way indexes and rows are stored
   - options to override the information that the MySQL query optimizer gathers from the table
 + **Control over index structures**
