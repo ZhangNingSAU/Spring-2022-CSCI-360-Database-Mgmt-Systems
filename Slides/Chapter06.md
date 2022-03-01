@@ -12,6 +12,7 @@ CREATE DATABASE database_name;
 ~~~~
 
 + Example(Assume the music database has not been created)
+  - If the music database exists, you can use `DROP DATABASE IF EXISTS music;` to remove it first.
 
 ![cd1](../Resources/6-cd1.png)
 
