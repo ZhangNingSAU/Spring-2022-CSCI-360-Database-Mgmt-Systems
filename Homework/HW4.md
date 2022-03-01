@@ -1,6 +1,6 @@
 # CSCI360 Spring 2021
 # Homework 4 for Chapter 5 Part II
-# due: 11:59pm 03/01/2021
+# due: 11:59pm 03/08/2021
 
 # Database: this homework is based on the MUSIC database in the textbook.
 + Note: Make sure that you reload the music database once before executing the following sql statements.
