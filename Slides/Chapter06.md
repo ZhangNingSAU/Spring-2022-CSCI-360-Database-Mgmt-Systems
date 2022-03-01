@@ -1,4 +1,4 @@
-# CSCI360 Spring 2021
+# CSCI360 Spring 2022
 # Chapter 6 Working with Database Structures
 + Objectives: dealing with **METADATA**
   - create database
