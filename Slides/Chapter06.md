@@ -70,7 +70,7 @@ name type [NOT NULL | NULL] [DEFAULT value]
   - **NOT NULL | NULL**: valid **with | without** a value
   - **DEFAULT value**: If you specify a value with the DEFAULT clause, it’ll be used to populate the column when you don’t otherwise provide data.
     + The value must be a constant (such as 0, "cat", or 20060812045623), except if the column is of the type TIMESTAMP.
-    + Sometimes, the DEFAULT value workks. Sometimes, it doesn't.
+    + Sometimes, the DEFAULT value works. Sometimes, it doesn't.
     ~~~~
     -- assume no rows in table artist
     INSERT INTO artist SET artist_name = "Duran Duran";
