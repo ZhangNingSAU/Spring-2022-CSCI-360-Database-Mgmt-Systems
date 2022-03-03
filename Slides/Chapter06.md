@@ -171,7 +171,7 @@ CREATE TABLE artist (
 + (width[,decimals])
   - a total of **width** digits of which some smaller number are **decimals** that follow a decimal point.
   - The maximum value of width is 255.
-  - The default value of widht is 10.
+  - The default value of width is 10.
   - The default value of decimals is 0.
   - If you’re storing only positive values, use the UNSIGNED keyword.
   - If you want zero padding, use the ZEROFILL keyword
