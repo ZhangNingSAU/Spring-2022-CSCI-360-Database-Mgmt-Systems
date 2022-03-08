@@ -126,6 +126,19 @@ CREATE TABLE artist (
 + **Foreign key constraints**
   - We don’t recommend using foreign key constraints for most applications.
   - This feature is currently supported for only the `InnoDB` table type.
+  
+  ~~~~
+  CREATE TABLE played (
+    artist_id SMALLINT(5) NOT NULL DEFAULT 0,
+    album_id SMALLINT(4) NOT NULL DEFAULT 0,
+    track_id SMALLINT(3) NOT NULL DEFAULT 0,
+    played TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+    PRIMARY KEY (artist_id,album_id,track_id,played),
+    FOREIGN KEY (artist_id)			 REFERENCES artist(artist_id),
+    FOREIGN KEY (artist_id,album_id) REFERENCES album(artist_id,album_id),
+    FOREIGN KEY (artist_id,album_id,track_id)	REFERENCES track(artist_id,album_id,track_id)
+  );
+  ~~~~
 + **Creating temporary tables**
   - The table will be removed (dropped) when the monitor connection is closed.
   ~~~~
