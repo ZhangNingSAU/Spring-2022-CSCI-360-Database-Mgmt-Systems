@@ -425,7 +425,7 @@ SELECT * FROM artist;
 ~~~~
 
 +  When you’re using the default MyISAM table type, you can use the AUTO_INCREMENT feature on keys that comprise multiple columns. 
-  - The following statement i invalid on XAMPP plotform, because the table taye is innoDB by default, we'll learn different table types in [Chapter 7](../Slides/Chapter07.md).
+  - The following statement is invalid on XAMPP plotform, because the table tyye is innoDB by default, we'll learn different table types in [Chapter 7](../Slides/Chapter07.md).
 ~~~~
 CREATE TABLE album1 (
   artist_id INT(5) NOT NULL,
