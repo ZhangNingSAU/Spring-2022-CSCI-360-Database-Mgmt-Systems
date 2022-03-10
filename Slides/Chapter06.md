@@ -641,7 +641,7 @@ ALTER TABLE played RENAME TO playlist;
   - Change the order of the rows in a table. This is useful only if you know you want to access the rows in a particular order and you want to help get the data into or near that order.
   - Manage and change constraints. For example, you can add and remove foreign keys.
 ### Rename a database
-+ Syntax
++ Syntax(not supported in XAMPP)
 ~~~~
 RENAME DATABASE old_database_name new_database_name;
 ~~~~
