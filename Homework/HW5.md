@@ -70,6 +70,6 @@
   - Set the combination of Sno and Pno in shipment as an index.
   - Rename shipment as ships.
 + ClearDB.sql: set of SQL statements to drop the above three Table. (10 points)
- 
++ Note that you need to make sure the four sql files you submit can be executed in batch mode. (5 points for each sql file)  
 # Step 2: Zip the four files, name it as CSCI360_Homework5_JohnDoe(0123456).
 # Step 3: Submit your work on [Blackboard](https://blackboard.sau.edu/webapps/login/)
