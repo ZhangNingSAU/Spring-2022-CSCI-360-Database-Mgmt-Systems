@@ -601,6 +601,7 @@ ALTER TABLE artist DROP INDEX by_name;
 ALTER TABLE table_name DROP PRIMARY KEY;
 ~~~~
 + Example
+  - This example will generate an error, because if the primary key is referenced by one or more foreign keys in other tables, than you need to drop those before you can drop the primary key.
 ~~~~
 ALTER TABLE artist DROP PRIMARY KEY;
 ~~~~
