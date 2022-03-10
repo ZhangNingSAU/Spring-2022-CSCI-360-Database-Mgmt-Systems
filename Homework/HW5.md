@@ -1,6 +1,6 @@
-# CSCI360 Spring 2021
-# Homework 4 for Chapter 6
-# due: 11:59pm 03/23/2021
+# CSCI360 Spring 2022
+# Homework 5 for Chapter 6
+# due: 11:59pm 03/17/2021
 
 # Database Description: This homework is based on the well-known suppliers-and-parts database which contains three relations and the following data:
 + **supplier**: Table supplier denotes suppliers. Each supplier has one supplier number (Sno), which is unique to that supplier (and so Sno is the primary key), one name (Sname), not necessarily unique; one rating or status value (Status); and one location (City).
@@ -71,5 +71,5 @@
   - Rename shipment as ships.
 + ClearDB.sql: set of SQL statements to drop the above three Table. (10 points)
  
-# Step 2: Zip the four files, name it as CSCI360_Homework4_JohnDoe(0123456).
+# Step 2: Zip the four files, name it as CSCI360_Homework5_JohnDoe(0123456).
 # Step 3: Submit your work on [Blackboard](https://blackboard.sau.edu/webapps/login/)
