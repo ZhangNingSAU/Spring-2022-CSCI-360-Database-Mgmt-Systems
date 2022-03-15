@@ -109,7 +109,7 @@ artist INNER JOIN album USING (artist_id);
 + To remove duplicates, MySQL needs to sort the output. You should use DISTINCT (and other aggregate functions) with caution on large data sets.
 ## The GROUP BY Clause
 + The GROUP BY clause sorts data into groups for the purpose of aggregation. 
-+ GROUP BY is used to organize the data before other clauses — such as WHERE, ORDER BY, and functions — areapplied.
++ GROUP BY is used to organize the data before other clauses — such as WHERE, ORDER BY, and functions — are applied.
 + ORDER BY is applied last — after the query has been resolved — to reorganize the query output for display.
 + COUNT( ) function can count off the number of instances/rows in each group.
   - Note: `COUNT(artist_name)` is the same as `COUNT(*)` or `COUNT(artist_id)` in the following query.
