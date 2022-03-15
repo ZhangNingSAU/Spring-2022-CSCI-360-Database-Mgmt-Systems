@@ -250,7 +250,7 @@ LIMIT 1);
     ~~~~
     - If you want to apply LIMIT or ORDER BY to an individual query that is part of a UNION statement, enclose that query in parentheses. It’s useful to use parentheses anyway to keep the query easy to understand.
     - For efficiency, MySQL will actually ignore an ORDER BY clause within a subquery if it’s used without LIMIT.
-    - The output of a UNION operation isn’t guaranteed to be ordered, even if the subqu- eries are ordered, so if you want the final output to be ordered, you should add an ORDER BY clause at the end of the whole query:
+    - The output of a UNION operation isn’t guaranteed to be ordered, even if the subqueries are ordered, so if you want the final output to be ordered, you should add an ORDER BY clause at the end of the whole query:
     ~~~~
     (SELECT track_name, played
     FROM track INNER JOIN played USING (artist_id, album_id, track_id)
