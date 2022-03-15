@@ -22,7 +22,7 @@ FROM mytable
   -  Write shorter queries
   -  Express your queries more clearly
   -  Use one table in two or more ways in a single query
-  -  Access data more easily from programs (for example, from PHP scripts, as dis- cussed in [Chapter 14](../Slides/Chapter14.md))
+  -  Access data more easily from programs (for example, from PHP scripts, as discussed in [Chapter 14](../Slides/Chapter14.md))
   -  Use special types of nested queries; these are the subject of “Nested Queries,” discussed later in this chapter
 ## Column Aliases
 + individual column(s)
