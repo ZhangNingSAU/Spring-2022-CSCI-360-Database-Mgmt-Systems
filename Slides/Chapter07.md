@@ -155,6 +155,13 @@ SELECT * FROM track GROUP BY artist_id;
 + Typically, the expression in the HAVING clause uses an aggregate function such as COUNT( ), SUM( ), MIN( ), or MAX( ).
 + If you find yourself wanting to write a HAVING clause that uses a column or expression that isn’t in the SELECT clause, chances are you should be using a WHERE clause instead.
 + The HAVING clause is only for deciding how to form each group or cluster, not for choosing rows in the output. 
++ Example 0: find out artist names who have released two or more albums.
+~~~~
+SELECT artist_name, COUNT(artist_name) FROM 
+artist INNER JOIN album USING (artist_id) 
+GROUP BY artist_name 
+HAVING COUNT(artist_name)>1;
+~~~~
 + Example 1: find out albums if you’ve listened to one or more of its tracks at least five times.
 ~~~~
 SELECT artist_name, album_name, COUNT(*) FROM
