@@ -294,7 +294,7 @@ played LEFT JOIN track USING (artist_id, album_id, track_id)
 ORDER BY played DESC;
 ~~~~
 
-+ Example: list all albums, even those that have never been played
++ Example 1: list all albums, even those that have never been played
 
 ~~~
 SELECT artist_name, album_name, COUNT(played) FROM
@@ -303,6 +303,21 @@ INNER JOIN track USING (artist_id, album_id)
 LEFT JOIN played USING (artist_id, album_id, track_id)
 GROUP BY album.artist_id, album.album_id;
 ~~~
+
++ Example 2: example 1 is not that easy to understand, let's have a simplier one
+
+~~~~
+-- insert a new artist into table artist
+INSERT INTO artist VALUES(7,"Bob Dylan");
+
+-- find the artists who do not have album information in the database
+SELECT * FROM artist LEFT JOIN album 
+USING(artist_id)
+WHERE album_id is NULL;
+
+-- delete Bob Dylan for the following examples
+DELETE FROM artist WHERE artist_id=7;
+~~~~
 
 ### RIGHT JOIN
 + whatever is on the right drives the process
