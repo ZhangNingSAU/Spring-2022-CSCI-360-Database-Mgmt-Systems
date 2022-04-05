@@ -341,7 +341,10 @@ artist INNER JOIN album USING (artist_id);
 ~~~
 + If identifier columns don’t share the same name, natural joins won’t work.
 # Nested Queries
-## Nested Query Basics: 
++ scalar subqueries
++ column subqueries
++ row subqueries
+## Nested Query Basics:
 + The outer query uses the output of the inner query.
 ~~~~
 SELECT artist_name FROM artist WHERE artist_id =
@@ -465,6 +468,7 @@ OUTER QUERY WHERE EXISTS
 ~~~~
 + Example
 ~~~~
+-- suppose you want to find a list of all artists in the database, but only if the database is active (which you’ve defined to mean only if at least one track from any album by any artist has been played)
 SELECT * FROM artist WHERE EXISTS
 (SELECT * FROM played);
 
