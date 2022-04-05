@@ -1,8 +1,8 @@
-# CSCI360 Spring 2021
-# Homework 5 for Chapter 7
-# due: 11:59pm 04/01/2021
+# CSCI360 Spring 2022
+# Homework 6 for Chapter 7
+# due: 11:59pm 04/12/2022
 
-# Database Description: This homework is based on the suppliers-and-parts database you created in [HW4](../Homework/HW4.md).
+# Database Description: This homework is based on the suppliers-and-parts database you created in [HW5](../Homework/HW5.md).
 + Note: Please run CreateDB.sql and LoadDB.sql to create the database and insert rows. Do NOT run AlterDB.sql.
 
 
@@ -28,7 +28,7 @@
 17. For each supplier (including the one who doesn’t ship any parts), print the supplier number and how many different parts shipped. For example, S1 6; S2 2, ...<br>
 18. For each supplier (including the one who doesn’t ship any parts), print the supplier number, supplier name, total cost of all shipments, and how many different parts shipped.<br>
  
-# Step 2: Save your queries in a file, name it as CSCI360_Homework5_JohnDoe(0123456).sql
+# Step 2: Save your queries in a file, name it as CSCI360_Homework6_JohnDoe(0123456).sql
 + Note: 
   - Place comments before each query(use “--” (double minus) to comment one line), e.g.:
   ~~~~
@@ -36,5 +36,5 @@
   your query here
   ~~~~
   - 100 points as long as you get 15 correct answers.
-  - bonus: 5 points for one more correct answer.
+  - Make sure your sql file could be executed in batch mode before submission.
 # Step 3: Submit your work on [Blackboard](https://blackboard.sau.edu/webapps/login/)
