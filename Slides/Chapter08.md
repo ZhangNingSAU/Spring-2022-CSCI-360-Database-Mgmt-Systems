@@ -1,4 +1,4 @@
-# CSCI360 Spring 2021
+# CSCI360 Spring 2022
 # Chapter 8: Doing More with MySQL
 + In this chapter, you’ll learn how to:
   - Insert data into a database from other sources, including with queries and from text files
