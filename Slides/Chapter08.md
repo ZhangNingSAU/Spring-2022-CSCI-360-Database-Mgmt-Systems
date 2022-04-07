@@ -20,7 +20,7 @@ CREATE TABLE shuffle (
 ~~~~
 + To insert data into this table, we can use the results of a SELECT statement.
   - The SELECT statement outputs a list of columns that must match the type and order of the list provided for the INSERT INTO statement (or the implicit, complete list if one isn’t provided)
-  - the sequence_id is auto- matically created using MySQL’s AUTO_INCREMENT feature, and so isn’t specified in the statements.
+  - the sequence_id is automatically created using MySQL’s AUTO_INCREMENT feature, and so isn’t specified in the statements.
   - ORDER BY RAND( ): this orders the results according to the MySQL function RAND( ). The RAND( ) function returns a pseudorandom number in the range 0 to 1.
   - The SELECT statement in an INSERT INTO statement can use all of the features of SELECT statements. You can use joins, aggregation, functions, and any other features you choose. 
 ~~~~
