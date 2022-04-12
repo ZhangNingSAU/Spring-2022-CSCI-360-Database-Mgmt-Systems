@@ -1,4 +1,4 @@
-# CSCI360 Spring 2021
+# CSCI360 Spring 2022
 # Chapter 9: Managing Users and Privileges
 Objectives:
 + Understand MySQL privileges
