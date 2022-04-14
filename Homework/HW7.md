@@ -1,6 +1,6 @@
-# CSCI360 Spring 2021
-# Homework 6 for Chapter 8
-# due: 11:59pm 04/27/2021
+# CSCI360 Spring 2022
+# Homework 7 for Chapter 8
+# due: 11:59pm 04/21/2022
 
 # Database Description: This homework is based on the suppliers-and-parts database you created in [HW4](../Homework/HW4.md).
 + Note: Please run CreateDB.sql and LoadDB.sql to create the database and insert rows. Do NOT run AlterDB.sql.
