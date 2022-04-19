@@ -97,9 +97,16 @@
     ![](../Resources/1.startmysql.png)
   - Mac (version 8.1.4)
     + Note: If you are using XAMPP 8 on Mac, you can open the terminal and run the following command
+      
     ~~~~
     /Applications/xampp/bin/mysql --user=root
     ~~~~
+    + If you want to use command `mysql` directly, you can 
+      - 1. use any text editor to open file `~/.bash_profile`
+      - 2. add `export PATH="/Applications/xampp/bin:$PATH"` to the end of the file
+      - 3. save and quit the file
+      - 4. run `source ~/.bash_profile` in terminal or open a new terminal
+      - 5. then, you can use command `mysql --user=root` directly
     + Note: I am using MAC, the mysql program may look different on Windows, but all the commands we use in this class will be the same.
     + Note: The default password is NULL, if you have set up a password, you need to use the following command
     ~~~~
