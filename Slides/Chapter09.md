@@ -287,6 +287,8 @@ GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
     + (5). Connections are allowed from any machine
 ## 6.3 Anonymous Users
 + Wildcard characters aren’t allowed in usernames. e.g. `fred%'@'localhost`
+  - percentage character (`%`): zero or more characters
+  - underscore character (`_`): exactly one character
 + We can have a user with an empty username that allows anonymous connections and matches all usernames.
   - example: create an anonymous local user who can read data from the music database.
     + Note that the username is specified as two single quotes, with nothing between them.
