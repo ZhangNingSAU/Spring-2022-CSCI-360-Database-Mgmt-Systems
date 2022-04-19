@@ -2,10 +2,17 @@
 + Go to the [XAMPP website](https://www.apachefriends.org/index.html) to download and install it according to the operating system of your computer.
   - Note: For Mac, if the filename extension is bz2 instead of dmg, change it to dmg before the installation.
 # Launch XAMPP Application
-# Start MySQL Server
+## MAC
+
 + Search for `xampp` in `Spotlight Search`
 
 ![xampp0](../Resources/xampp0.png)
+
+## Windows
+
++ Find `xampp-control` in `C:\xampp`
+
+# Start MySQL Server
 
 ## MAC
 + In **General**, click **Start**
