@@ -103,7 +103,7 @@
     ~~~~
     + If you want to use command `mysql` directly, you can 
       - 1. use any text editor to open file `~/.bash_profile`
-      - 2. add `export PATH="/Applications/xampp/bin:$PATH"` to the end of the file
+      - 2. add `export PATH="$PATH:/Applications/xampp/bin"` to the end of the file
       - 3. save and quit the file
       - 4. run `source ~/.bash_profile` in terminal or open a new terminal
       - 5. then, you can use command `mysql --user=root` directly
