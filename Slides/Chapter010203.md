@@ -64,7 +64,7 @@
 + On textbook "Learning MySQL", Chapter 2 introduces the installation of the LAMP platform in details.
 + In our class, we use the XAMPP application.
   - [XAMPP 7.4.28 Tutorial ](XAMPP%20Tutorial.md)
-  - [XAMPP 8.1.4 Tutorial ](XAMPP%20Tutorial8.md)
+  - [XAMPP 8.1.4 Tutorial ](XAMPP8%20Tutorial.md)
 
 # 3. Using the MySQL Monitor
 +  client-server architecture
