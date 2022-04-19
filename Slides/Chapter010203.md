@@ -213,10 +213,16 @@ SELECT COUNT(*) FROM user;
   - Download music.sql from http://tahaghoghi.com/LearningMySQL/downloads.php
   - Put the sql file in the correct folder
   - Run the file
-    + MacOS
+    + MacOS(xampp 7.4.28)
     ~~~~
     source /opt/lampp/htdocs/music.sql 
     ~~~~
+    + MacOS(xampp 8.1.4): `source full_path_of_music.sql_file`
+    ~~~~
+    -- suppose the full path is ~/Downloads/music.sql, you can run
+    source ~/Downloads/music.sql
+    ~~~~
+    
     + Windows
     ~~~~
     source C:\xampp\htdocs\music.sql 
