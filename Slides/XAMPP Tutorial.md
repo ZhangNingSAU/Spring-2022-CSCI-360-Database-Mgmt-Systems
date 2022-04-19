@@ -1,4 +1,4 @@
-# XAMPP Installation
+# XAMPP 7.4.28 Installation
 + Go to the [XAMPP website](https://www.apachefriends.org/index.html) to download and install it according to the operating system of your computer.
   - Note: For Mac, if the filename extension is bz2 instead of dmg, change it to dmg before the installation.
 # Launch XAMPP Application
