@@ -16,7 +16,7 @@ Objectives:
   - the databases, tables, and columns on the server that they can access
   - the types of actions that users can carry out on these structures
 + operating system users:
-  -  superuser accounts: 
+  - superuser accounts
     + the root user on a Linux or Mac OS X server
     + the Administrator on Windows
   - ordinary accounts
