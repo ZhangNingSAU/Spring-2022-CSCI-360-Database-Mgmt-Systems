@@ -78,21 +78,24 @@
 ## Starting the Monitor
 + The monitor program is called simply mysql and is found in a directory with the other MySQL programs. 
   - The exact location depends on your operating system and how you chose to install MySQL
-    + you can locate the promgram from XAMPP directly
+    + you can locate the program from XAMPP directly
+  - Windows
   
   ![xamppwin](../Resources/xamppwin.png)
+  
+  - Mac (version 7.4.28)
   
   ![xamppmac](../Resources/xamppmac.png)
   
   ![startterminal](../Resources/1.startterminal.png)
   
-  
   - from the command line, you type
     ~~~~
     mysql --user=root
     ~~~~
-    
+   
     ![](../Resources/1.startmysql.png)
+  - Mac (version 8.1.4)
     + Note: If you are using XAMPP 8 on Mac, you can open the terminal and run the following command
     ~~~~
     /Applications/xampp/bin/mysql --user=root
