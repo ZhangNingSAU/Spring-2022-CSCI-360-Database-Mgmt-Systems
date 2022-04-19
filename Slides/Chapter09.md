@@ -267,6 +267,8 @@ GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
   GRANT ALL ON music.* TO 'john'@'192.168.64.2' IDENTIFIED BY 'the_password';
   ~~~~
   - Note `192.168.64.2` also represents the current DBMS server. But we can also create remote users on other IPs/Domain Names if the command works on `192.168.64.2`.
+  
+  ![ch9-remote](../Resources/ch9-remote.png)
 + **Host specification examples**
 
 |Host specification |  Example |  Effect|
