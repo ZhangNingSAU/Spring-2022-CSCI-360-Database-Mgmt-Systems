@@ -27,7 +27,11 @@ Objectives:
 ~~~~
 mysql --user=root --password=the_mysql_root_password
 ~~~~
-
++ Before creating a new user, let's take a look at all the users in the DBMS.
+  - the usernames are stored in database `mysql`, table `user`, and column `user`.
+~~~~
+SELECT user FROM mysql.user;
+~~~~
 + Now create a new user called `allmusic` who’ll connect from the same system as the one the MySQL server is running on (`localhost`). We’ll grant this user all privileges on all tables in the music database (`music.*`) and assign the password `the_password`:
 
 ~~~~
