@@ -227,7 +227,7 @@ mysql --user=hugh --host=192.168.1.2 --password=the_password
 mysql --user=hugh --host=ruttle.invyhome.com --password=the_password
 ~~~~
 
-+ If you want to allow access from 192.168.1.2 (and its equiv- alent domain name ruttle.invyhome.com), you need to grant those privileges by creating a new user with the username hugh and the host 192.168.1.2.
++ If you want to allow access from 192.168.1.2 (and its equivalent domain name ruttle.invyhome.com), you need to grant those privileges by creating a new user with the username hugh and the host 192.168.1.2.
   - Note that each username and host pair is treated as a separate user and has its own password.
 + Log in to the monitor as the root user, and type:
 ~~~~
