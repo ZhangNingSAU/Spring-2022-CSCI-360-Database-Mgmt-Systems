@@ -176,7 +176,7 @@ GRANT ALL ON music.artist TO 'rose'@'localhost';
 
 ## 6.1 Local and Remote Users
 + A `local user` connects to the server and accesses the databases from the same computer that the MySQL server is running on (localhost).
-  - If the client is local, the connection is made internally through a Unix socket (for Linux and Mac OS X) or through a named pipe (for Win- dows). 
+  - If the client is local, the connection is made internally through a Unix socket (for Linux and Mac OS X) or through a named pipe (for Windows). 
   - This is generally much faster than the TCP/IP network connection used for remote access.
   
   
