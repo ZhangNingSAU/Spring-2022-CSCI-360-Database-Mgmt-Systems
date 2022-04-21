@@ -1,0 +1,98 @@
+-- 1.
+Pno and Sno -> shipment
+GROUP BY
+
+-- 2.
+aggregate function
+
+-- 3.
+group by and sum()
+
+-- 4.
+SELECT * FROM part WHERE Weight=(a subquery to get highest weight);
+
+-- 5.
+SELECT * FROM part WHERE Weight != (a subquery to get lowest weight);
+
+-- 6.
+SELECT Sno FROM supplier 
+WHERE City = (a subquery to get s1's city)
+AND Sno != 's1'
+
+-- 7
+
+-- 8.
+SELECT Sno FROM shipment 
+WHERE Pno IN (a subquery to get Pno of red parts)
+
+-- OR
+part inner join shipment
+
+--9. 
+
+SELECT Sno FROM supplier
+WHERE Sno NOT IN (a query to get Sno that ship red parts)
+
+-- 10.
+
+Sno ships only red <==> Sno ships red AND Sno does NOT ship non-red
+
+
+SELECT Sno FROM shipment
+WHERE Sno IN (subquery to get Sno that ships Red parts)
+AND SNO NOT IN(subquery to get Sno that ships non-Red parts)
+
+-- 11.
+SELECT Sno from supplier
+WHERE Sno NOT IN (a subquery to get Sno that is shipping parts)
+
+
+-- or
+LEFT JOIN
+
+SELECT Sno from supplier LEFT JOIN shipment USING(Sno)
+WHERE Pno IS NULL;
+
+-- 12.
+
+select * form supplier inner join shipment using(Sno)
+WHERE Pno IN (a subquery to get Pno shipped by S2)
+AND Sno != 's2'
+
+-- 13.
+SELECT Sno FROM supplier
+WHERE Status < (a subquery to get the average status of all supplier)
+
+-- 17. 
+
+ SELECT Sno, COUNT(Pno) from (suppier left join shipment)
+ group by Sno;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
