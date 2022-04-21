@@ -9,7 +9,7 @@
 
 
 # Step 1: Write MySQL statements for the following questions:
-1. Create a table with two columns, and save the Sno and Sname for suppliers who ship ONLY red parts.<br>
+1. Create a table with two columns, and save the Sno and Sname for suppliers who ship red parts.<br>
 + Note: Create a table and insert Data Using Queries or create a table and copy some data<br>
 2. Download the [artists_and_albums.csv](https://raw.githubusercontent.com/ZhangNingSAU/Spring-2022-CSCI-360-Database-Mgmt-Systems/main/Resources/artists_and_albums.csv), create a table, then load the data from artists_and_albums.csv into the table.<br>
 + Note: Download the csv file in the `htdocs` folder.<br>
