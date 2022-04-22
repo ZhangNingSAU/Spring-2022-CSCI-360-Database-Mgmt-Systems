@@ -33,7 +33,7 @@
 7. Replace s5's city with `Rome`<br>
 + note: use `Replace` clause<br>
 
-# Step 2: Save all the statements in a file, name it as CSCI360_Homework6_JohnDoe(0123456).sql
+# Step 2: Save all the statements in a file, name it as CSCI360_Homework7_JohnDoe(0123456).sql
 + Note: 
   - Place comments before each query(use “--” (double minus) to comment one line), e.g.:
   ~~~~
