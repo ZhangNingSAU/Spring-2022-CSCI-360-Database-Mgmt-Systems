@@ -24,7 +24,7 @@
 
     + 4. put the artists_and_albums.csv file in the folder C:\xampp\mysql\data\my_db (note that my_db is the database I created, you need to replace it with your own database name) 
 
-5. run the LOAD DATA INFILE command, and provide the file name  'artists_and_albums.csv' directly. (no need to provide the full path) 
+    + 5. run the LOAD DATA INFILE command, and provide the file name  'artists_and_albums.csv' directly. (no need to provide the full path) 
 4. Save the part information for all parts shipped by more than one supplier into a csv file.<br>
 + Note: Better to save the csv file in `htdocs` folder.<br>
 5. Find the shipments by Sname `Smith`, and increase the price by 0.001<br>
