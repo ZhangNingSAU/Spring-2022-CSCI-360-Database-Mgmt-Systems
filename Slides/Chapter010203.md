@@ -63,8 +63,7 @@
 # 2. Installation of MySQL
 + On textbook "Learning MySQL", Chapter 2 introduces the installation of the LAMP platform in details.
 + In our class, we use the XAMPP application.
-  - [XAMPP 7.4.28 Tutorial ](XAMPP%20Tutorial.md)
-  - [XAMPP 8.1.4 Tutorial ](XAMPP8%20Tutorial.md)
+  - [XAMPP 8 Tutorial ](XAMPP8%20Tutorial.md)
 
 # 3. Using the MySQL Monitor
 +  client-server architecture
@@ -78,36 +77,29 @@
 ## Starting the Monitor
 + The monitor program is called simply mysql and is found in a directory with the other MySQL programs. 
   - The exact location depends on your operating system and how you chose to install MySQL
-    + you can locate the program from XAMPP directly
-  - Windows
+ 
+  - Windows(you can locate the program from XAMPP directly)
   
   ![xamppwin](../Resources/xamppwin.png)
   
-  - Mac (version 7.4.28)
+  - Mac(There is no such a button on Mac version)
   
-  ![xamppmac](../Resources/xamppmac.png)
+  ![xamppmac](../Resources/xamppmac2.png)
   
-  ![startterminal](../Resources/1.startterminal.png)
+    + You need to start from `Terminal` application(use `Spotlight` to search for `Terminal` or find the application in `Applications` folder) and run the following command
   
-  - from the command line, you type
-    ~~~~
-    mysql --user=root
-    ~~~~
-   
-    ![](../Resources/1.startmysql.png)
-  - Mac (version 8.1.4)
-    + Note: If you are using XAMPP 8 on Mac, you can open the terminal and run the following command
-      
     ~~~~
     /Applications/xampp/bin/mysql --user=root
     ~~~~
+    
+    ![xamppmac3](../Resources/xamppmac3.png)
     + If you want to use command `mysql` directly, you can 
       - 1. use any text editor to open file `~/.bash_profile`
       - 2. add `export PATH="$PATH:/Applications/xampp/bin"` to the end of the file
       - 3. save and quit the file
       - 4. run `source ~/.bash_profile` in terminal or open a new terminal
       - 5. then, you can use command `mysql --user=root` directly
-    + Note: I am using MAC, the mysql program may look different on Windows, but all the commands we use in this class will be the same.
+    + Note: I am using MAC, the mysql program may look different on Windows, but most of the commands we use in this class will be the same.
     + Note: The default password is NULL, if you have set up a password, you need to use the following command
     ~~~~
     mysql --user=root --password=the_mysql_root_password
@@ -124,7 +116,7 @@ or
 quit;
 ~~~~
 
-![](../Resources/1.stopmonitor.png)
+![](../Resources/1.stopmonitor2.png)
 
 ## Commands
 + version of MySQL
@@ -195,19 +187,28 @@ SELECT COUNT(*) FROM user;
   SOURCE count_users.sql
   ~~~~
     + Note: 
-      - If you do NOT use XAMPP, you need to specify the full path of the sql file if it is not in the current directory. The current directory is the directory when you open the terminal(MAC) or shell(windows). On my Mac, I created the file on the desktop, so the full path is "~/Desktop/count_users.sql". If you use Windows, the full path may look like "C:\folder_name\count_users.sql".
-      - In our class, we use XAMPP, so if you want to execute the file, create/put it in the following folder.
+      - If you are using XAMPP, you need to specify the full path of the sql file if it is not in the current directory. To get the current directory, you can use command `pwd` in your terminal(MAC) or command `cd` in your shell(windows).
+      
+      ![windowscd](../Resources/1.windowscd.png)
+      
+      ![macpwd](../Resources/1.macpwd.png)
+      
+      - In our class, we use XAMPP, folder `htdocs` is recommended to save all the files.
+        + If you are using Mac, the path is `/Applications/xampp/htdocs`
     
-      ![](../Resources/1.htdocs.png)
     
-      - To find the folder, click **Explore**
+        + If you are using Windows, the path is `C:\xampp\htdocs` (You can also find the folder by click **Explore**)
     
-      ![](../Resources/1.explore.png)
+      ![explore](../Resources/1.explore.png)
     
   - run the file using its full path
-    + If you are using Windows, the default full path is `C:\xampp\htdocs\count_users.sql`
+    + If you are using Windows, the full path is `C:\xampp\htdocs\count_users.sql`
   
-  ![](../Resources/1.batch2.png)
+  ![batch2_2](../Resources/1.batch2_2.png)
+  
+  - change the full path if you put the sql file in a different path
+   
+  ![batch2_3](../Resources/1.batch2_3.png)
   
 ## Loading the Sample Databases
   - Download music.sql from http://tahaghoghi.com/LearningMySQL/downloads.php
