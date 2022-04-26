@@ -18,7 +18,7 @@
 
     + 1. create a database/or use an existing one
 
-    + 2. use that database
+    + 2. use that database(If you are using the `supplier_and_part` database, skip these two steps)
 
     + 3. create a table with two columns, and the data types should be compatible with the content of the csv file
 
