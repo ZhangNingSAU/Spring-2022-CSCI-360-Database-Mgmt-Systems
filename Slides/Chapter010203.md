@@ -194,12 +194,13 @@ SELECT COUNT(*) FROM user;
       ![macpwd](../Resources/1.macpwd.png)
       
       - In our class, we use XAMPP, folder `htdocs` is recommended to save all the files.
-        + If you are using Mac, the path is `/Applications/xampp/htdocs`
+        + If you are using Mac, the path is `/Applications/xampp/htdocs`(You can also find the folder by click **Open Application Folder**)
     
+      ![htdocsmac](../Resources/1.htdocsmac.png)
     
         + If you are using Windows, the path is `C:\xampp\htdocs` (You can also find the folder by click **Explore**)
     
-      ![explore](../Resources/1.explore.png)
+      ![htdocswin](../Resources/1.htdocswin.png)
     
   - run the file using its full path
     + If you are using Windows, the full path is `C:\xampp\htdocs\count_users.sql`
