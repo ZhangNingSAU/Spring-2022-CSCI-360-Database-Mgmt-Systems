@@ -136,7 +136,7 @@ mysql --user=root
 
 -- we can not create a user without password using GRANT ALL ON music.* TO 'hugh'@'localhost', we need to use CREATE USER statement
 -- 'hugh'@'localhost' has no privileges.
-CREATE USER 'hugh'@'localhost'
+CREATE USER 'hugh'@'localhost';
 -- grant privileges now
 GRANT ALL ON music.* TO 'hugh'@'localhost';
 
@@ -144,7 +144,7 @@ GRANT ALL ON music.* TO 'hugh'@'localhost';
 GRANT GRANT OPTION ON music.* TO 'hugh'@'localhost';
 
 -- Quit the monitor, and then reconnect as the MySQL user hugh:
-QUIT
+quit;
 mysql --user=hugh
 
 -- let’s give our privileges to another user(but make sure user 'selina'@'localhost' exists or create it first)
