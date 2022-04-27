@@ -1,7 +1,7 @@
 # The `Grant Option` problem
 
-+ In today's class (Tuesday 04/26/2022), we had some problem when dealing with `Grant Option`. When we tried to run the following commands.
-  - Note that the error happens only when using `XAMPP 8 on Mac` operating system.
++ In today's class (Tuesday 04/26/2022), we had some problem when we tried to run the following commands to deal with `Grant Option`.
+  - Note that the error happens only when using `XAMPP 8 on Mac`.
   - If you are using `Windows` or `XAMPP 7 on Mac`, everything goes well.
 ~~~~
 -- connect to the monitor as the root user
