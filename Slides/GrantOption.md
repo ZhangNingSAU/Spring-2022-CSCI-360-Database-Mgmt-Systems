@@ -39,6 +39,7 @@ GRANT GRANT OPTION ON music.* TO 'selina'@'localhost';
 ![ch9-grantoptionerror2](../Resources/ch9-grantoptionerror2.png)
 
 + But if the `root` user `GRANT ALL`  on a different level. It works.
+  - Note that we can not apply `ALL` to `column level`.
 
 ![ch9-grantoptionerror3](../Resources/ch9-grantoptionerror3.png)
 
