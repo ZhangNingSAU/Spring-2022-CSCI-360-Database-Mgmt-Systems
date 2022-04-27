@@ -38,7 +38,7 @@ GRANT GRANT OPTION ON music.* TO 'selina'@'localhost';
 
 ![ch9-grantoptionerror2](../Resources/ch9-grantoptionerror2.png)
 
-+ But if the `root` user `GRANT ALL` a different level. It works.
++ But if the `root` user `GRANT ALL`  on a different level. It works.
 
 ![ch9-grantoptionerror3](../Resources/ch9-grantoptionerror3.png)
 
