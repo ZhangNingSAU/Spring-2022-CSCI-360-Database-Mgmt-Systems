@@ -34,7 +34,7 @@ GRANT GRANT OPTION ON music.* TO 'selina'@'localhost';
 
 ![ch9-grantoptionerror1](../Resources/ch9-grantoptionerror1.png)
 
-+ The reason is user `'hugh'@'localhost'` did not get the `ALL` privilege at database level `music.*`.
++ The reason is user `'hugh'@'localhost'` did not get the `ALL` privilege on database level `music.*`.
 
 ![ch9-grantoptionerror2](../Resources/ch9-grantoptionerror2.png)
 
