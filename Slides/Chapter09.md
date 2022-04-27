@@ -23,7 +23,7 @@ Objectives:
     + The ordinary account can’t access or modify sensitive system-wide files, such as the system’s hardware settings, or the MySQL server logfiles or datafiles.
 # 2. Creating and Using New Users
 + To create a new user, the `root` user have permission, so we need to connect to the monitor as the `root` user.
-
+  
 ~~~~
 mysql --user=root --password=the_mysql_root_password
 ~~~~
@@ -129,6 +129,7 @@ SELECT time FROM TRACK LIMIT 3;
 
 # 4. The GRANT OPTION Privilege
 + The `GRANT OPTION` privilege allows a user to pass on any privileges she/he has to other users.
+  - Note: If you are using XAMPP 8 on Mac, the `GRANT ALL ON music.* TO 'selina'@'localhost';` command won't work. The reason is the `GRANT ALL ON music.* TO 'hugh'@'localhost';` command can not grant `ALL` priviliges to `'hugh'@'localhost'`. To double check it, you can use `SHOW GRANTS FOR 'root'@'localhost'` and `SHOW GRANTS FOR 'hugh'@'localhost'` to take a look at the differences. I am still working on this issue and will update the slides when I find the solution. (If you are using Windows or XAMPP 7 on Mac, there will be no problem.)
 
 ~~~~
 -- connect to the monitor as the root user
