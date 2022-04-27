@@ -224,11 +224,9 @@ mysql --user=hugh --host=127.0.0.1 --password=the_password
 ~~~~
 + Now, let’s try connecting to the MySQL `server on ruttle` from `ruttle` by using its `IP address` or `name`
 ~~~~
--- will not work
 mysql --user=hugh --host=192.168.1.2 --password=the_password
 ~~~~
 ~~~~
--- will not work
 mysql --user=hugh --host=ruttle.invyhome.com --password=the_password
 ~~~~
 
@@ -262,7 +260,7 @@ or
 GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
 ~~~~
 + Example on `192.168.64.2`
-  - Unfortunately, I can not show these examples in class.
+  - Unfortunately, I can not show most of the previous examples in class.
   - Let's use a different one.
   ~~~~
   GRANT ALL ON music.* TO 'john'@'192.168.64.2' IDENTIFIED BY 'the_password';
