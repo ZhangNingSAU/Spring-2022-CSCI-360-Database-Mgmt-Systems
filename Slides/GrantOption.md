@@ -48,7 +48,9 @@ GRANT GRANT OPTION ON music.* TO 'selina'@'localhost';
 
   ![ch9-grantoptionerror3](../Resources/ch9-grantoptionerror3.png)
   
-  - I will upload the results for Windows later.
+  - XAMPP 8 on Windows
+  
+  ![ch9-grantoptionerror4](../Resources/ch9-grantoptionerror4.png)
 
 + I am still working on this issue.
 
