@@ -305,7 +305,7 @@ GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
 ## 6.4 Which User Is Connected?
 + what happens if more than one user and host combination matches when a connection is attempted?
 + Example:
-  - Let's create two users
+  - Let's log in as `root@localhost` and create two users
   ~~~~
   -- The first user dave can now connect from any host and run only SELECT statements on the music database. '%' means all hosts
   GRANT SELECT ON music.* TO 'dave'@'%' IDENTIFIED BY 'the_password';
