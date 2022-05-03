@@ -298,9 +298,9 @@ GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
   - example: create an anonymous local user who can read data from the music database.
     + Note that the username is specified as two single quotes, with nothing between them.
     + The MySQL server decides which user to log you in as based on a checklist we describe in the next section
-  
-  ![ch9-11](../Resources/ch9-11.png)
-  
+  <!--
+  ![ch9-11](../Resources/ch9-11.png) -->
+  ![ch9-11-2](../Resources/ch9-11-2.png)
 
 ## 6.4 Which User Is Connected?
 + what happens if more than one user and host combination matches when a connection is attempted?
