@@ -260,7 +260,9 @@ or
 GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
 ~~~~
 
-+ **Unfortunately, I can not show the remote user examples in class.**
++ **Unfortunately, I can not show the remote user examples in class.** But remember
+  - When we create a new user, we need to provide the IP or domain name of the `client`.
+  - When we log in, we need to provide the IP or domain name of the `server`.
 <!--
 + Example on `192.168.64.2`
   - Unfortunately, I can not show most of the previous examples in class.
