@@ -259,6 +259,9 @@ or
 ~~~~
 GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
 ~~~~
+
++ **Unfortunately, I can not show the remote user examples in class.**
+<!--
 + Example on `192.168.64.2`
   - Unfortunately, I can not show most of the previous examples in class.
   - Let's use a different one.
@@ -268,6 +271,7 @@ GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
   - Note `192.168.64.2` also represents the current DBMS server. But we can also create remote users on other IPs/Domain Names if the command works on `192.168.64.2`.
   
   ![ch9-remote](../Resources/ch9-remote.png)
+-->
 + **Host specification examples**
 
 |Host specification |  Example |  Effect|
