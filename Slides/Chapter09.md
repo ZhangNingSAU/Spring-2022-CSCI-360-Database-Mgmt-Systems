@@ -356,7 +356,7 @@ GRANT ALL ON *.* TO 'jill'@'192.168.1.%' IDENTIFIED BY 'the_password';
 
 ### `mysqlaccess`: see what level of access a particular user has for a particular database
 + Note:
-  - 1. open the terminal from XAMPP, or do `QUIT` if you have logged in.
+  - 1. open a new terminal, or do `QUIT` if you have logged in.
   - 2. use the correct password. If no password for user, you can ignore this argument
  
 ~~~~
