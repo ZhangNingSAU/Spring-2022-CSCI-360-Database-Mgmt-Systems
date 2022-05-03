@@ -32,7 +32,7 @@ B. `'user4'@'127.0.0.1'`<br>
 C. `@'localhost'`<br>
 D. `'user5'@'192.168.1.100'`<br>
 
-+ Q5. Suppose there are four users in `mysql` database(listed in the following table), which user will be used when you try to establish a connection by using the following statemtn?
++ Q5. Suppose there are four users in `mysql` database(listed in the following table), which user will be used when you try to establish a connection by using the following statement?
 
 |user|
 |----|
