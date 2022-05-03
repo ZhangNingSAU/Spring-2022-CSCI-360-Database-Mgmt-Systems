@@ -1,6 +1,6 @@
-# CSCI360 Spring 2021
-# Homework 7 for Chapter 9
-# due: 11:59pm 05/04/2021
+# CSCI360 Spring 2022
+# Homework 8 for Chapter 9
+# due: 11:59pm 05/10/2022
 
 # In the following questions, we are going to use the `music` database in the textbook.
 + Q1: Can we use the following statements to retrieve the artist information? Why?
