@@ -53,7 +53,7 @@ D. `''@'localhost`<br>
 -- log in as 'root'@'localhost' and execute the following statement
 REVOKE SELECT (album_name) ON music.album FROM 'user1'@'localhost';
 -- log in as 'user1'@'localhost' and execute the following statement
-SELECT album_id, album_name FROM music.album
+SELECT album_id, album_name FROM music.album;
 ~~~~~
 
 + Q7. Which command does **NOT** need to use the `FLUSH PRIVILEGES` instruction to tell the server to read in the updated data(we log in as `'root'@'localhost'`).<br>
