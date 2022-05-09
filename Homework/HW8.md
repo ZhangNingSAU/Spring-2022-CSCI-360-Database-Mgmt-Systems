@@ -32,7 +32,7 @@ B. `'user4'@'127.0.0.1'`<br>
 C. `@'localhost'`<br>
 D. `'user5'@'192.168.1.100'`<br>
 
-+ Q5. Suppose there are four users in `mysql` database(listed in the following table), which user will be used when you try to establish a connection by using the following statement?
++ Q5. Suppose there are four users in `mysql` database(listed in the following table), which user will be used when you try to establish a connection from `192.168.1.200` using the username `dave`?
 
 |user|
 |----|
@@ -41,10 +41,6 @@ D. `'user5'@'192.168.1.100'`<br>
 |'dave'@'192.168.1.100'|
 |''@'localhost'|
 
-~~~~
--- suppose '123456' is the password for all the users
-mysql --user=dave --host='192.168.1.200' --password=123456
-~~~~
 
 A. `'dave'@'localhost'`<br>
 B. `'dave'@'%'`<br>
