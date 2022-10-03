@@ -69,7 +69,7 @@
 +  client-server architecture
   - clients connect to the server to perform database operations
   
-  ![client-server architecture](https://www.oreilly.com/library/view/access-database-design/1565926269/tagoreillycom20070221oreillyimages86579.png)
+  ![client-server architecture](https://miro.medium.com/max/553/0*mkEIh7VBaBocwsS1)
   
 + The standard MySQL command-line client or “monitor” program provided by MySQL AB is the client you’ll probably use the most often.
   - The monitor allows you to control almost all aspects of database creation and maintenance using SQL and the custom MySQL extensions to SQL.
